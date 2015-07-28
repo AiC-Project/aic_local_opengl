@@ -21,7 +21,7 @@ struct conn_duo {
 
 #define MAX_FREE_SOCKETS 5
 
-#define BUFF_SIZE (4*1024*1024)
+#define BUFF_SIZE (512*1024)
 
 #define OPENGL_START_COMMAND 1001
 #define OPENGL_PING 1002
